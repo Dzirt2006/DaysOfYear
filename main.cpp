@@ -17,7 +17,8 @@ int main() {
     cin>>month;
     cout<<"Enter a day of month "<< month<< ':';
     cin>>day;
-    DaysOfYear obj(month,check(day));
+   // DaysOfYear obj(month,check(day));
+    DaysOfYear obj("May",2);
     obj.Act();
 
     return 0;

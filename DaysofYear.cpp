@@ -24,12 +24,17 @@ void DaysOfYear::Act(){
 
     do{
         x=NameOfMonth[i].compare(inS);      //searching the month
-        if(x==1){
-            catchIt=i;                  //note index of month
-            cout<<"\nCatched!!"<<endl;
+
+        cout<<"arr "<<NameOfMonth[i]<<endl;
+        cout<<inS<<endl;
+        cout<<'*'<<x<<'*'<<endl;
+
+        if(x==0){
+            catchIt=i;                  //note index of the month
+            cout<<"\nCatched!!"<<'-'<<catchIt<<endl;
         }else i++;
-    }while (x==0);
-    //
+    }while (x!=0);
+    //check amount of days in the founded month
         if(DaysInMonth[catchIt]<=inI){
             cout<<"Checked! Ok.";
         } else{

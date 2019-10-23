@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dzirt/CLionProjects/DaysOfYear/DaysofYear.cpp
-DaysofYear.h
-C:/Users/dzirt/CLionProjects/DaysOfYear/DaysofYear.h
-
 C:/Users/dzirt/CLionProjects/DaysOfYear/DaysofYear.h
 iostream
 -
@@ -17,4 +13,12 @@ string
 -
 vector
 -
+
+C:/Users/dzirt/CLionProjects/DaysOfYear/main.cpp
+iostream
+-
+string
+-
+DaysofYear.h
+C:/Users/dzirt/CLionProjects/DaysOfYear/DaysofYear.h
 

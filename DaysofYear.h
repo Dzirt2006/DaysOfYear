@@ -20,22 +20,23 @@ using namespace std;
 class DaysOfYear{
 public:
 
-    //prototype
+    //prototypes
     void print(int);
     void Act();
 
     //constructor
-  DaysOfYear(string NameMonth,int day){
-      string inS=NameMonth;
-      int inI=day;
-        cout<<endl<<day;
-    }
+
     //
 
-private:
+public:
     string inS;
     int inI;
 
+    DaysOfYear(string NameMonth,int day){
+        string inS=NameMonth;
+        int inI=day;
+        cout<<endl<<day;
+    }
     static const int month=12;
     int Year[month]={31,59,90,120,151,181,212,243,273,304,334,365};
     int DaysInMonth[month]={31,28,31,30,31,30,31,31,30,31,30,31};
